@@ -1,10 +1,10 @@
 {
   "name": "9mm default Tokens List",
-  "timestamp": "2026-08-19T01:11:34.190Z",
+  "timestamp": "2026-10-12T14:43:44.000Z",
   "version": {
     "major": 1,
-    "minor": 2,
-    "patch": 16
+    "minor": 3,
+    "patch": 0
   },
   "tokens": [
     {
@@ -8894,6 +8894,251 @@
       "symbol": "GOLDPAY",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/ninemm-pro/app-tokens/main/token-logo/0x3ebE8390B69Bbc1Cd130C9359eAAd0c5220CD41c.png"
+    },
+    {
+      "chainId": 369,
+      "address": "0x1475b177E567fd6AcEFD968f88fAfE3EdB78eE67",
+      "name": "Kylo",
+      "symbol": "KYLO",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x879d764680999e5f3c59ca660e8ed694608b7252",
+      "name": "NOVEM",
+      "symbol": "IX",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xa3de6d801f0033370d8850500f5db9eebf7ad29a",
+      "name": "HigherFinance",
+      "symbol": "HIFI",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x7e419c5e024538f998538fa45e788e99e46b118d",
+      "name": "LoveFinance",
+      "symbol": "LOFI",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x52560de0c8d9aec7ffaa631441f2bf4d23ff9465",
+      "name": "WinterX",
+      "symbol": "WHEX",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x284d79c9bcfa6e1a02d2b31c7111b14d70e76327",
+      "name": "Mirage de l’Orange",
+      "symbol": "🍊",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x45f9891b8ba319d501eadd1aeb0c4a29aa4f337b",
+      "name": "H3X",
+      "symbol": "H3X",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x7cd1b6e275ecc14ea7f6d3d8f8e1ba76255910a2",
+      "name": "KeyLIME",
+      "symbol": "LIME",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x86753af53f56b3ad360b0881a44685665db39718",
+      "name": "Gelato",
+      "symbol": "GELATO",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x5524cebc51a0bb1cd0cba54e1a488938c93d23e8",
+      "name": "Vitamin C",
+      "symbol": "INC",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xdfbcb2595c3127397fac288021990964f0ce2465",
+      "name": "PurpleHAAZE",
+      "symbol": "HAAZE",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x3ca4aff1076a662c767e705f674bd6157a23691f",
+      "name": "XXX",
+      "symbol": "XXX",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x55F15775bd3fa66bF75D3F69d9aA5c4b3224267E",
+      "name": "WinterMint",
+      "symbol": "WIN",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xc992483cEB5abA74EC3a7A635c03a93e66BE782e",
+      "name": "WinterFinance",
+      "symbol": "WIFI",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x425f9b2Fe544E2e511070b84e33f2C91EF3bAeC8",
+      "name": "EverGreen",
+      "symbol": "GREEN",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xEE9a7BC2Da484622b159dAF48971958767400c09",
+      "name": "Kush",
+      "symbol": "KUSH",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xb9b9a0fD2e3ca14Ac817BCEA60cA9e3EB938A811",
+      "name": "SuperSour",
+      "symbol": "SOUR",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xF4240D0fCee8b63a08a2eac203a79436D48357bF",
+      "name": "Hearts",
+      "symbol": "HEART",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x0Bf6e487e3dBF3D5f466A1E5987390D4F7Ad3A5F",
+      "name": "Carats",
+      "symbol": "CARAT",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xab2686d345eCb7332C88E7e366A1119cFAAA4032",
+      "name": "High Velocity",
+      "symbol": "HIGHER",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x8AF867407948FcA505Fd19d7C6319e0BF9197CBD",
+      "name": "RECOIL",
+      "symbol": "RECOIL",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x7B176aA7fc373430CCef6A46D2391dc01274F92E",
+      "name": "Mango Money",
+      "symbol": "MILF",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x601CECf8e7b7700F43922869C919F2B94dBb39a8",
+      "name": "Tangerine🍊Spherical Financial Infrastructure",
+      "symbol": "TSFI",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x946949eB812Da9388472e9E5C1240779b5487d6b",
+      "name": "Full Metal Jacket 💀♠️💀",
+      "symbol": "💀♠️💀",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x8183Ce50D9EFaD95c08135C75959507ebC932c1a",
+      "name": "DEV9",
+      "symbol": "🃏",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xD0Bd761FdfC42795eb404c08f088c553dfb229dD",
+      "name": "ENDEX",
+      "symbol": "⚔️",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xe3893E5997a7b667b42710b225F7b45a3E16c8F7",
+      "name": "Hex Bond 3000",
+      "symbol": "HB-3000",
+      "decimals": 8
+    },
+    {
+      "chainId": 369,
+      "address": "0x0F382a88aCDAAAd1599601a387c86861B43a893f",
+      "name": "Hex Bond 4000",
+      "symbol": "HB-4000",
+      "decimals": 8
+    },
+    {
+      "chainId": 369,
+      "address": "0x5d96808FAc230ca3E3b3816cB042e71dCbd96e1D",
+      "name": "Hex Bond 5000",
+      "symbol": "HB-5000",
+      "decimals": 8
+    },
+    {
+      "chainId": 369,
+      "address": "0xDa75004169139c83e523d4a68F30A8c4C2dC92C7",
+      "name": "Hex Bond 6000",
+      "symbol": "HB-6000",
+      "decimals": 8
+    },
+    {
+      "chainId": 369,
+      "address": "0x81FCbB6b293A826d50870E0D8b832C6be1111B4a",
+      "name": "Hex Bond 7000",
+      "symbol": "HB-7000",
+      "decimals": 8
+    },
+    {
+      "chainId": 369,
+      "address": "0x59909C28B6629ee6ebBe64ca87d2e5b5FF451020",
+      "name": "Hex Bond 8000",
+      "symbol": "HB-8000",
+      "decimals": 8
+    },
+    {
+      "chainId": 369,
+      "address": "0xD947b662876aAaAD199826d985Dee35cad569989",
+      "name": "Hex Bond Rewards",
+      "symbol": "HBR",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x5eA9674085a81e653FF087B4b86FaAe564a267be",
+      "name": "Hex Bond Rewards Premium",
+      "symbol": "HBRP",
+      "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xB4FD57E92483c895743503B77827948643C30BBA",
+      "name": "Hex Bond Millionaires Club",
+      "symbol": "HBMC",
+      "decimals": 18
     }
   ],
   "logoURI": "https://raw.githubusercontent.com/ninemm-pro/app-tokens/main/9mm.png"
