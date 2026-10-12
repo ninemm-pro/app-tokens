@@ -40,7 +40,9 @@ Open a pull request that changes two things:
    }
    ```
 
-2. **Add its logo** as `token-logo/<address>.png`: square, at least 128 × 128 pixels, under 200 KB.
+2. **Add its logo** as `token-logo/<address>.png`: a PNG, square, at least 128 × 128 pixels, at most
+   200 KB. Without one, leave `logoURI` out: the token is listed with a lettered badge until a logo
+   is added.
 
 In the pull request, say who you are and link the project's own website or account that names this
 address as its token.
