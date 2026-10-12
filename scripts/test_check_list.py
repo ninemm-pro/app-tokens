@@ -59,6 +59,12 @@ class ListCheck(unittest.TestCase):
         self.add_logo(NEW, png(128, 128))
         self.assertEqual(self.check(), (0, "The lists pass.\n"))
 
+    def test_a_request_with_no_logo_at_all_passes(self):
+        # The owner may list a token before its project sends a logo (12 October 2026); it shows a lettered badge.
+        bare = {key: value for key, value in entry(NEW, "HB-4000").items() if key != "logoURI"}
+        self.write_list([entry(LISTED, "USDC", logo=False), bare])
+        self.assertEqual(self.check(), (0, "The lists pass.\n"))
+
     def test_a_request_without_its_logo_file_fails(self):
         self.write_list([entry(LISTED, "USDC", logo=False), entry(NEW, "HB-4000")])
         code, out = self.check()

@@ -4,9 +4,11 @@
 Usage: python3 scripts/check_list.py <base git ref>
 
 Every list must stay a valid token list. An entry added or changed since <base> must also be a
-complete PulseChain entry whose address is listed once, with its logo here in token-logo/: a PNG
-named by the address, at least MIN_LOGO_PX square, at most MAX_LOGO_BYTES. Entries already on the
-list are not held to the logo rules, so a request is never refused for an older entry's gap.
+complete PulseChain entry whose address is listed once. A logo is optional (the owner may list a
+token before its project sends one, and the app then draws a lettered badge); one that is named must
+be here in token-logo/: a PNG named by the address, at least MIN_LOGO_PX square, at most
+MAX_LOGO_BYTES. Entries already on the list are not held to the logo rules, so a request is never
+refused for an older entry's gap.
 
 Python's standard library only, so nothing needs installing or pinning. Exits 1 with one line per
 problem.
@@ -46,8 +48,8 @@ def entry_problems(token):
     decimals = token.get("decimals")
     if not isinstance(decimals, int) or isinstance(decimals, bool) or not 0 <= decimals <= 255:
         problems.append("decimals must be a whole number from 0 to 255")
-    if not isinstance(token.get("logoURI"), str):
-        problems.append("logoURI is missing")
+    if "logoURI" in token and not isinstance(token["logoURI"], str):
+        problems.append("logoURI must be a link, or left out for no logo")
     unknown = set(token) - FIELDS
     if unknown:
         problems.append(f"unknown fields: {', '.join(sorted(unknown))}")
@@ -105,7 +107,8 @@ def list_problems(name, base):
         if not found:
             if counts[token["address"].lower()] > 1:
                 found.append("its address is already on the list")
-            found += logo_problems(token)
+            if "logoURI" in token:
+                found += logo_problems(token)
         problems += [f"{label}: {problem}" for problem in found]
     return problems
 
