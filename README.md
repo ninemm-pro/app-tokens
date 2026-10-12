@@ -25,7 +25,11 @@ before it is merged.
 
 ## Asking for a token to be listed
 
-Open a pull request that changes two things:
+The quickest way is the form: [ask for a token to be listed](https://github.com/ninemm-pro/app-tokens/issues/new?template=list-a-token.yml).
+The 9MM app links to it from the warning it shows for a token not on the list, with the address filled
+in. Someone then adds the token by pull request.
+
+Or open the pull request yourself. It changes two things:
 
 1. **Add the token at the end of the `tokens` array in `9mm-tokenlist.json`:**
 
