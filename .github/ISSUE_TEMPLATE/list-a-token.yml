@@ -1,0 +1,56 @@
+name: Ask to list a token
+description: Ask for a PulseChain token to be added to the 9MM token list, without editing any files.
+title: "List a token: "
+labels: ["listing request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Listing shows your token in the 9MM app with its logo and without the "not on the 9MM list" warning.
+        It does not make the token tradeable or give it a price: any token in a 9MM pool can already be traded,
+        and a token with no pool yet can have its first pool created on Add liquidity.
+
+        Every request is checked by hand before the token is listed. A request can be refused.
+  - type: input
+    id: address
+    attributes:
+      label: Token address on PulseChain
+      description: The contract address, 0x followed by 40 characters.
+      placeholder: "0x…"
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Token name and symbol
+      description: As the contract reports them.
+      placeholder: "Hex Bond 4000 (HB-4000)"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where the project names this address
+      description: A link to the project's own website, X account or Telegram post that gives this address as its token. Without one the request cannot be accepted.
+      placeholder: "https://…"
+    validations:
+      required: true
+  - type: textarea
+    id: logo
+    attributes:
+      label: Logo (optional)
+      description: Drag a square PNG here, at least 128 × 128 pixels and at most 200 KB. Without one the token is listed with a lettered badge, and you can send a logo later.
+  - type: input
+    id: contact
+    attributes:
+      label: Who is asking
+      description: Your name or handle and your part in the project, so we can ask a question if we need to.
+    validations:
+      required: true
+  - type: checkboxes
+    id: understood
+    attributes:
+      label: Understood
+      options:
+        - label: I am part of this project or asking on its behalf, and listing gives the token no price and no promise.
+          required: true
