@@ -1,7 +1,8 @@
 # 9MM token list
 
 The tokens 9MM lists on PulseChain (chain id 369), with their logos. The 9MM app at
-[app.9mm.pro](https://app.9mm.pro) builds its token list from here, and any wallet or app may read it.
+[app.9mm.pro](https://app.9mm.pro) builds its token list from this list and Piteas's together, and
+any wallet or app may read it.
 
 | File | What it is |
 | --- | --- |
