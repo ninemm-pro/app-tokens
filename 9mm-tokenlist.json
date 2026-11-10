@@ -9139,6 +9139,14 @@
       "name": "Hex Bond Millionaires Club",
       "symbol": "HBMC",
       "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x041e2Ab0a4AF5066035Cd464E66A10Cf5a9cdDd7",
+      "name": "Optimus Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/ninemm-pro/app-tokens/main/token-logo/0x041e2Ab0a4AF5066035Cd464E66A10Cf5a9cdDd7.png"
     }
   ],
   "logoURI": "https://raw.githubusercontent.com/ninemm-pro/app-tokens/main/9mm.png"
